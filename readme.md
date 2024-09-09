@@ -23,6 +23,13 @@ The primary goal of this project is to control multiple vehicle functions wirele
 - **ESP32**: The core of the project, handling Bluetooth communication and output control.
 - **Demultiplexer (DEMUX)**: To manage multiple outputs with fewer GPIO pins.
 
+## Circuit Diagram
+
+Below is the circuit diagram for the vehicle control system:
+
+![Circuit Diagram](https://github.com/dkmar11/VehicleControlSystem/blob/main/diagram.png)
+
+
 ## Commands
 
 The following commands are sent via Bluetooth to control the vehicle’s components:
